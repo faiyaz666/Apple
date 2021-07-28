@@ -1,0 +1,749 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+
+.nav {
+    width: :100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, .8);
+    position: sticky;
+    top: 0;
+    z-index: 100000;
+
+    align-items: center;
+    justify-content: space-between;
+    backdrop-filter: blur(2rem);
+}
+
+
+.nav ul {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    word-spacing: 50px;
+
+}
+
+.nav ul li {
+    display: inline-block;
+    padding: 12px 10px;
+    margin: 0;
+
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: lightgray;
+}
+
+.nav ul li:hover a {
+    color: #F5F5F7;
+}
+
+.covid {
+    width: 100%;
+    padding: 0;
+    line-height: 43px;
+    background: #0071E3;
+    color: #ffffff;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 14px;
+    justify-content: :center;
+    text-decoration: none;
+
+
+
+}
+
+.covid a:hover {
+
+    text-decoration: underline;
+}
+
+.shop-online {
+    width: 100%;
+    line-height: 40px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.shop-online a {
+    text-decoration: none;
+
+}
+
+.shop-online a:hover {
+    text-decoration: underline;
+}
+
+.main {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    width: 100%;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    grid-gap: 10px;
+}
+
+.main > div {
+
+    font-size: 21px;
+    color: #0066CC;
+}
+
+.number1 {
+    position: relative;
+}
+
+.iphoneSE {
+
+    text-decoration: none;
+    color: #2997FF;
+    position: absolute;
+    margin-left: 670px;
+    margin-top: 220px;
+
+}
+
+.iphoneSE a {
+    text-decoration: none;
+    color: #0066CC;
+    font-size: 21px;
+    color: #2997FF;
+}
+
+.iphoneSE span {
+    color: #0066CC;
+    margin-left: 2px;
+    margin-top: 165px;
+    font-size: 14px;
+
+}
+
+.iphoneSE a:hover {
+    text-decoration: underline;
+}
+
+.number2 {
+    position: relative;
+}
+
+.iphone11 {
+    text-decoration: none;
+    color: #0066CC;
+    position: absolute;
+    margin-left: 680px;
+    margin-top: 200px;
+
+}
+
+.iphone11 a {
+    text-decoration: none;
+    color: #0066CC;
+    font-size: 21px;
+    color: #0066CC;
+}
+
+.iphone11 span {
+    color: #0066CC;
+    margin-left: 2px;
+    margin-top: 165px;
+    font-size: 14px;
+    
+
+}
+
+.iphone11 a:hover {
+    text-decoration: underline;
+}
+
+
+.number3 {
+    position: relative;
+}
+
+.ipad {
+    text-decoration: none;
+    color: #0066CC;
+    position: absolute;
+    margin-left: 690px;
+    margin-top: 160px;
+
+}
+
+.ipad a {
+    text-decoration: none;
+    color: #0066CC;
+    font-size: 21px;
+}
+
+.ipad span {
+    color: #0066CC;
+    margin-left: 2px;
+    margin-top: 165px;
+    font-size: 14px;
+
+}
+
+.ipad a:hover {
+    text-decoration: underline;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+    margin: 0;
+    position: relative;
+
+}
+
+.grid-container > div {
+    font-size: 14px;
+    color: #0066CC;
+
+
+}
+
+.item1 {
+    position: relative;
+}
+
+
+.iphone-watch {
+    text-decoration: none;
+    color: #0066CC;
+    position: absolute;
+    margin-left: 320px;
+    margin-top: 160px;
+
+
+}
+
+.iphone-watch a {
+    text-decoration: none;
+    color: #0066CC;
+    font-size: 17px;
+}
+
+.iphone-watch span {
+    color: #0066CC;
+    margin-left: 5px;
+    margin-top: 165px;
+    font-size: 14px;
+
+}
+
+.iphone-watch a:hover {
+    text-decoration: underline;
+}
+
+
+
+.item2 {
+    position: relative;
+}
+
+
+.racism {
+    text-decoration: none;
+    color: #0066CC;
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 320px;
+
+}
+
+.racism a {
+    text-decoration: none;
+    color: #0066CC;
+    font-size: 17px;
+}
+
+.racism span {
+    color: #0066CC;
+    margin-left: 5px;
+    margin-top: 357px;
+    font-size: 14px;
+}
+
+.racism a:hover {
+    text-decoration: underline;
+}
+
+.item3 {
+    position: relative;
+}
+
+
+.wwdc {
+    text-decoration: none;
+    color: #0066CC;
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 205px;
+
+}
+
+.wwdc a {
+    text-decoration: none;
+    color: #0066CC;
+    font-size: 17px;
+}
+
+.wwdc span {
+    color: #0066CC;
+    margin-left: 5px;
+    margin-top: 357px;
+    font-size: 14px;
+}
+
+.wwdc a:hover {
+    text-decoration: underline;
+}
+
+.item4 {
+    position: relative;
+}
+
+
+
+.watch {
+    text-decoration: none;
+    color: #0066CC;
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 190px;
+
+}
+
+
+
+
+.watch a {
+    text-decoration: none;
+    color: #0066CC;
+    font-size: 17px;
+
+
+
+}
+
+.watch span {
+    color: #0066CC;
+    margin-left: 5px;
+    margin-top: 355px;
+    font-size: 14px;
+
+
+}
+
+.watch a:hover {
+    text-decoration: underline;
+}
+
+.item5 {
+    position: relative;
+}
+
+
+.card {
+    text-decoration: none;
+    color: #0066CC;
+    position: absolute;
+    margin-left: 335px;
+    margin-top: 145px;
+
+
+}
+
+.card a {
+    text-decoration: none;
+    color: #0066CC;
+    font-size: 17px;
+
+
+}
+
+.card span {
+    color: #0066CC;
+    margin-left: 5px;
+    margin-top: 355px;
+    font-size: 14px;
+
+
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
+
+.item6 {
+    position: relative;
+}
+
+
+.letter {
+    text-decoration: none;
+    color: #0066CC;
+    position: absolute;
+    margin-left: 379px;
+    margin-top: 140px;
+
+
+}
+
+.letter a {
+    text-decoration: none;
+    color: #0066CC;
+    font-size: 17px;
+
+
+}
+
+.letter span {
+    color: #0066CC;
+    margin-left: 5px;
+    margin-top: 355px;
+    font-size: 14px;
+
+
+}
+
+.letter a:hover {
+    text-decoration: underline;
+}
+
+.last {
+    background-color: none;
+}
+
+
+.text {
+    color: #86868B;
+    font-size: 12px;
+    margin: 0 200px;
+    
+    border-bottom: 1px black;
+    box-sizing: border-box;
+
+}
+
+.informatios{
+   
+    color: #86868B; 
+    line-height: 15px;
+    text-transform: inherit;
+    text-indent: inherit;
+
+}
+
+
+.text ol{
+    list-style-type:none; 
+}
+.text ol li a {
+
+
+    margin: 0;
+    text-decoration: none;
+    color: #1D1D1F;
+}
+
+.text ol li a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    font-size: 12px;
+    border-top: 1px solid lightgray;
+    margin-left: 230px;
+    margin-right: 230px;
+    position: inline-grid;
+    grid-template-columns: auto auto auto auto auto;
+    background-color: #F5F5F7#;
+
+    box-sizing: border-box;
+    ;
+
+}
+
+.footer > div {
+    position: absolute;
+
+}
+
+.footer .shop-learn {
+    color: #515154;
+    font-size: 12px;
+    line-height: 20px;
+    background-color: #F5F5F7#;
+    font-weight: :600;
+}
+
+.shop-learn ul li {
+    color: black;
+
+    list-style-type: none;
+    margin-left: 0px;
+    padding-top: 5px;
+
+
+
+}
+
+
+.shop-learn ul li a {
+    list-style-type: none;
+    text-decoration: none;
+    color: #515154;
+
+}
+
+.shop-learn ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer .services {
+    color: #86868B;
+    font-size: 12px;
+    line-height: 24px;
+    margin-left: 180px;
+
+}
+
+.services ul {
+    color: black;
+    list-style-type: none;
+    margin-left: 0px;
+    padding-top: 5px;
+}
+
+.services ul li a {
+    list-style-type: none;
+    text-decoration: none;
+    color: #515154;
+}
+
+.services ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer .store {
+    color: #86868B;
+    font-size: 12px;
+    line-height: 27px;
+    margin-left: 380px;
+
+}
+
+.store ul {
+    color: black;
+    list-style-type: none;
+    margin-left: 0px;
+    padding-top: 5px;
+}
+
+.store ul li a {
+    list-style-type: none;
+    text-decoration: none;
+    color: #515154;
+}
+
+.store ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer .business {
+    color: #86868B;
+    font-size: 12px;
+    line-height: 25px;
+    margin-left: 600px;
+
+}
+
+.business ul {
+    color: black;
+    list-style-type: none;
+    margin-left: 0px;
+    padding-top: 5px;
+}
+
+.business ul li a {
+    list-style-type: none;
+    text-decoration: none;
+    color: #515154;
+}
+
+.business ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer .values {
+    color: #86868B;
+    font-size: 12px;
+    line-height: 27px;
+    margin-left: 800px;
+
+
+}
+
+.values ul {
+    color: black;
+    list-style-type: none;
+    margin-left: 0px;
+    padding-top: 5px;
+}
+
+.values ul li a {
+    list-style-type: none;
+    text-decoration: none;
+    color: #515154;
+}
+
+.values ul li a:hover {
+    text-decoration: underline;
+}
+
+.last-para {
+    margin-left: 40px;
+    margin-top: 440px;
+    font-size: 12px;
+    padding: 0px;
+    border-bottom: 1px lightgray;
+    color: #86868B;
+
+}
+
+.last-para a {
+    color: #0066CC;
+    text-decoration: none;
+}
+
+.last-para a:hover {
+    text-decoration: underline;
+}
+
+.lastfooter {
+    font-size: 12px;
+    border-top: 1px solid lightgray;
+    margin-left: 0px;
+    margin-right: 0px;
+    position: inline-grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    background-color: #F5F5F7#;
+
+}
+
+.lastfooter p {
+    color: #86868B;
+    font-size: 12px;
+    line-height: 20px;
+    background-color: #F5F5F7#;
+    font-weight: :600;
+    margin-left: 20px;
+    border-right: 1px solid lightgray;
+    margin-top: 0;
+    padding-top: 5px;
+    display: inline;
+    grid-gap: 10px;
+}
+
+.lastfooter p a {
+    text-decoration: none;
+    color: #515154;
+}
+
+.lastfooter p a:hover {
+    text-decoration: underline;
+}
+
+.page {
+
+    position: relative;
+    color: #fff;
+    background-color: black;
+    margin-top: 80px;
+
+
+}
+
+.page p {
+    font-size: 21px;
+    text-align: right;
+}
+
+@media screen and (max-width:768px) {
+    .grid-container {
+        display: inherit;
+        margin: 0;
+        width: auto;
+        grid-gap: 5px;
+
+    }
+
+    .last {
+        background-color: #F5F5F7;
+        display: block;
+    }
+
+
+    .text {
+        font-size: 10px;
+        background-color: #F5F5F7;
+        margin: 0 10px;
+
+    }
+
+    .informations {
+        margin: 0 ;
+        padding: 5px 7px;
+        line-height: auto;
+
+
+    }
+
+    .footer {
+        font-size: 12px;
+        margin: 0 5px;
+        display: inherit;
+        background-color: #F5F5F7#;
+
+    }
+    
+    .iphoneSE {
+
+    text-decoration: none;
+    color: #2997FF;
+    position: absolute;
+    margin-left: 370px;
+    margin-top: 250px;
+
+}
+
+.iphoneSE a {
+    text-decoration: none;
+    color: #0066CC;
+    font-size: 21px;
+    color: #2997FF;
+}
+
+.iphoneSE span {
+    color: #0066CC;
+    margin-left: 2px;
+    margin-top: 165px;
+    font-size: 14px;
+
+}
+
+.iphoneSE a:hover {
+    text-decoration: underline;
+}
+}
